@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-br from-slate-100 via-white to-blue-50">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-br from-slate-100 via-white to-[#e6f5fd]">
         <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-slate-900">4. Cookies and Tracking Technologies</h2>
             <p className="text-slate-700">
               We use cookies and similar tracking technologies to enhance your experience on our website. 
-              For more information, please see our <Link href="/cookie-policy" className="text-blue-700 hover:text-blue-900">Cookie Policy</Link>.
+              For more information, please see our <Link href="/cookie-policy" className="text-[#189fea] hover:text-[#1171a4]">Cookie Policy</Link>.
             </p>
 
             <h2 className="text-slate-900">5. Data Sharing and Disclosure</h2>
@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
               please contact us at:
             </p>
             <ul className="text-slate-700">
-              <li>Email: <a href="mailto:contact@telosfn.com" className="text-blue-700 hover:text-blue-900">contact@telosfn.com</a></li>
+              <li>Email: <a href="mailto:contact@telosfn.com" className="text-[#189fea] hover:text-[#1171a4]">contact@telosfn.com</a></li>
               <li>Address: Tel Aviv, Israel</li>
             </ul>
           </div>

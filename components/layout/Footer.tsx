@@ -106,7 +106,7 @@ export function Footer() {
             <h3 className="font-heading font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
-                <Mail size={18} className="mt-0.5 text-blue-400" />
+                <Mail size={18} className="mt-0.5 text-[#189fea]" />
                 <a
                   href="mailto:contact@telosfn.com"
                   className="text-sm text-slate-400 hover:text-white transition-colors"
@@ -115,7 +115,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-start space-x-3">
-                <Phone size={18} className="mt-0.5 text-blue-400" />
+                <Phone size={18} className="mt-0.5 text-[#189fea]" />
                 <a
                   href="tel:+972-54-874695"
                   className="text-sm text-slate-400 hover:text-white transition-colors"
@@ -124,7 +124,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-start space-x-3">
-                <MapPin size={18} className="mt-0.5 text-blue-400" />
+                <MapPin size={18} className="mt-0.5 text-[#189fea]" />
                 <span className="text-sm text-slate-400">
                   Tel Aviv, Israel
                 </span>

@@ -61,12 +61,12 @@ export function ProgramsPreview() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative p-6 md:p-8 bg-slate-50 rounded-2xl hover:bg-blue-50 transition-colors border border-slate-200 hover:border-blue-200"
+              className="group relative p-6 md:p-8 bg-slate-50 rounded-2xl hover:bg-[#e6f5fd] transition-colors border border-slate-200 hover:border-[#b3e3fa]"
             >
               <div className="flex items-start gap-4">
                 {/* Icon */}
-                <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-                  <program.icon size={24} className="text-blue-700" />
+                <div className="flex-shrink-0 w-12 h-12 bg-[#e6f5fd] rounded-xl flex items-center justify-center group-hover:bg-[#b3e3fa] transition-colors">
+                  <program.icon size={24} className="text-[#189fea]" />
                 </div>
 
                 {/* Content */}

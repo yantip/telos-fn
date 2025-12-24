@@ -69,13 +69,13 @@ export function ProcessOverview() {
               {/* Step Card */}
               <div className="relative p-6 bg-white rounded-2xl shadow-lg flex-1 mx-2 lg:mx-3">
                 {/* Step Number Badge */}
-                <div className="absolute -top-3 right-4 px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full">
+                <div className="absolute -top-3 right-4 px-3 py-1 bg-[#189fea] text-white text-xs font-bold rounded-full">
                   {step.step}
                 </div>
 
                 {/* Icon */}
                 <div className="w-14 h-14 bg-slate-100 rounded-xl flex items-center justify-center mb-5">
-                  <step.icon size={28} className="text-blue-600" />
+                  <step.icon size={28} className="text-[#189fea]" />
                 </div>
 
                 {/* Content */}
@@ -89,7 +89,7 @@ export function ProcessOverview() {
 
               {/* Arrow (between cards, except last) */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:flex absolute -right-2 top-1/2 -translate-y-1/2 z-10 w-8 h-8 bg-blue-600 rounded-full items-center justify-center shadow-lg">
+                <div className="hidden lg:flex absolute -right-2 top-1/2 -translate-y-1/2 z-10 w-8 h-8 bg-[#189fea] rounded-full items-center justify-center shadow-lg">
                   <ArrowRight size={16} className="text-white" />
                 </div>
               )}

@@ -92,7 +92,7 @@ export function AccessibilityWidget() {
       {/* Trigger Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-24 right-4 z-40 w-12 h-12 bg-navy-800 hover:bg-navy-900 text-white rounded-full shadow-lg flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-navy-600 focus:ring-offset-2"
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 w-12 h-12 bg-navy-800 hover:bg-navy-900 text-white rounded-full shadow-lg flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-navy-600 focus:ring-offset-2"
         aria-label="Open accessibility settings"
       >
         <Accessibility size={24} />

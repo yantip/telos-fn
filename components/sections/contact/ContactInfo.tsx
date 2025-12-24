@@ -19,25 +19,25 @@ export function ContactInfo() {
         <div className="space-y-4">
           <a
             href="mailto:contact@telosfn.com"
-            className="flex items-center gap-3 text-slate-600 hover:text-blue-700 transition-colors"
+            className="flex items-center gap-3 text-slate-600 hover:text-[#189fea] transition-colors"
           >
-            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-              <Mail size={18} className="text-blue-700" />
+            <div className="w-10 h-10 bg-[#e6f5fd] rounded-lg flex items-center justify-center flex-shrink-0">
+              <Mail size={18} className="text-[#189fea]" />
             </div>
             <span>contact@telosfn.com</span>
           </a>
           <a
             href="tel:+972-54-874695"
-            className="flex items-center gap-3 text-slate-600 hover:text-blue-700 transition-colors"
+            className="flex items-center gap-3 text-slate-600 hover:text-[#189fea] transition-colors"
           >
-            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-              <Phone size={18} className="text-blue-700" />
+            <div className="w-10 h-10 bg-[#e6f5fd] rounded-lg flex items-center justify-center flex-shrink-0">
+              <Phone size={18} className="text-[#189fea]" />
             </div>
             <span>+972-54-874695</span>
           </a>
           <div className="flex items-center gap-3 text-slate-600">
-            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-              <MapPin size={18} className="text-blue-700" />
+            <div className="w-10 h-10 bg-[#e6f5fd] rounded-lg flex items-center justify-center flex-shrink-0">
+              <MapPin size={18} className="text-[#189fea]" />
             </div>
             <span>Tel Aviv, Israel</span>
           </div>
@@ -47,7 +47,7 @@ export function ContactInfo() {
       {/* Response Time */}
       <div className="p-6 bg-slate-100 rounded-2xl border border-slate-200">
         <div className="flex items-center gap-3 mb-3">
-          <Clock size={20} className="text-blue-700" />
+          <Clock size={20} className="text-[#189fea]" />
           <h3 className="font-heading font-semibold text-slate-900">
             Response Time
           </h3>
@@ -61,26 +61,26 @@ export function ContactInfo() {
       {/* What to Expect */}
       <div className="p-6 bg-white rounded-2xl shadow-sm border border-slate-200">
         <div className="flex items-center gap-3 mb-3">
-          <MessageCircle size={20} className="text-blue-700" />
+          <MessageCircle size={20} className="text-[#189fea]" />
           <h3 className="font-heading font-semibold text-slate-900">
             What to Expect
           </h3>
         </div>
         <ul className="space-y-2 text-sm text-slate-600">
           <li className="flex items-start gap-2">
-            <span className="text-blue-600 mt-1">•</span>
+            <span className="text-[#189fea] mt-1">•</span>
             <span>Initial response within 1-2 business days</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-600 mt-1">•</span>
+            <span className="text-[#189fea] mt-1">•</span>
             <span>Free initial consultation (30 minutes)</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-600 mt-1">•</span>
+            <span className="text-[#189fea] mt-1">•</span>
             <span>Honest assessment of your funding options</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-blue-600 mt-1">•</span>
+            <span className="text-[#189fea] mt-1">•</span>
             <span>No obligation to proceed</span>
           </li>
         </ul>

@@ -39,16 +39,16 @@ export function Hero() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-sm text-blue-700 rounded-full text-sm font-medium mb-6 border border-blue-200 shadow-sm"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-sm text-[#189fea] rounded-full text-sm font-medium mb-6 border border-[#b3e3fa] shadow-sm"
             >
-              <Sparkles size={16} className="text-blue-600" />
+              <Sparkles size={16} className="text-[#189fea]" />
               Strategic R&D Grant Funding
             </motion.div>
 
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-slate-900 mb-6 leading-tight">
               Turn Your Innovation Into{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600">
+              <span style={{ color: '#189fea' }}>
                 Funded Reality
               </span>
             </h1>

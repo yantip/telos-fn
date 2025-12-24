@@ -41,7 +41,7 @@ export function ArticlesList({ articles, tags }: ArticlesListProps) {
               placeholder="Search articles..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-0 transition-colors bg-white text-slate-900 placeholder:text-slate-400"
+              className="w-full pl-12 pr-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#189fea] focus:ring-offset-0 transition-colors bg-white text-slate-900 placeholder:text-slate-400"
             />
           </div>
 
@@ -85,13 +85,13 @@ export function ArticlesList({ articles, tags }: ArticlesListProps) {
                 className="group"
               >
                 <Link href={`/articles/${article.slug}`} className="block h-full">
-                  <div className="h-full p-6 bg-slate-50 rounded-2xl hover:bg-blue-50 transition-colors border border-slate-200 hover:border-blue-200">
+                  <div className="h-full p-6 bg-slate-50 rounded-2xl hover:bg-[#e6f5fd] transition-colors border border-slate-200 hover:border-[#b3e3fa]">
                     {/* Tags */}
                     <div className="flex flex-wrap gap-2 mb-4">
                       {article.tags.slice(0, 2).map((tag) => (
                         <span
                           key={tag}
-                          className="px-2 py-1 bg-white text-xs font-medium text-blue-700 rounded border border-slate-200"
+                          className="px-2 py-1 bg-white text-xs font-medium text-[#189fea] rounded border border-slate-200"
                         >
                           {tag}
                         </span>
@@ -99,7 +99,7 @@ export function ArticlesList({ articles, tags }: ArticlesListProps) {
                     </div>
 
                     {/* Title */}
-                    <h2 className="text-xl font-heading font-semibold text-slate-900 mb-3 group-hover:text-blue-700 transition-colors line-clamp-2">
+                    <h2 className="text-xl font-heading font-semibold text-slate-900 mb-3 group-hover:text-[#189fea] transition-colors line-clamp-2">
                       {article.title}
                     </h2>
 
@@ -120,7 +120,7 @@ export function ArticlesList({ articles, tags }: ArticlesListProps) {
                     </div>
 
                     {/* Read More */}
-                    <div className="mt-4 pt-4 border-t border-slate-200 flex items-center gap-2 text-blue-700 font-medium group-hover:text-blue-900 transition-colors">
+                    <div className="mt-4 pt-4 border-t border-slate-200 flex items-center gap-2 text-[#189fea] font-medium group-hover:text-[#1171a4] transition-colors">
                       Read article
                       <ArrowRight
                         size={16}
@@ -140,7 +140,7 @@ export function ArticlesList({ articles, tags }: ArticlesListProps) {
                 setSelectedTag(null);
                 setSearchQuery('');
               }}
-              className="mt-4 text-blue-700 font-medium hover:text-blue-900 underline"
+              className="mt-4 text-[#189fea] font-medium hover:text-[#1171a4] underline"
             >
               Clear filters
             </button>

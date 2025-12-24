@@ -37,7 +37,7 @@ export function ProgramSection({ program, index }: ProgramSectionProps) {
         >
           {/* Header */}
           <div className="mb-10">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4 border border-blue-200">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#e6f5fd] text-[#1171a4] rounded-full text-sm font-medium mb-4 border border-[#b3e3fa]">
               {program.shortName}
             </div>
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-900 mb-4">
@@ -70,7 +70,7 @@ export function ProgramSection({ program, index }: ProgramSectionProps) {
                     <li key={item} className="flex items-start gap-3">
                       <CheckCircle
                         size={18}
-                        className="text-blue-600 mt-0.5 flex-shrink-0"
+                        className="text-[#189fea] mt-0.5 flex-shrink-0"
                       />
                       <span className="text-slate-600">{item}</span>
                     </li>
@@ -89,7 +89,7 @@ export function ProgramSection({ program, index }: ProgramSectionProps) {
                 <ul className="space-y-2">
                   {program.benefits.map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0" />
+                      <div className="w-2 h-2 bg-[#189fea] rounded-full mt-2 flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}

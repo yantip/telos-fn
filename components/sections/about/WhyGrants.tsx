@@ -80,10 +80,10 @@ export function WhyGrants() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
-                className="p-6 bg-slate-50 rounded-xl hover:bg-blue-50 transition-colors border border-slate-200"
+                className="p-6 bg-slate-50 rounded-xl hover:bg-[#e6f5fd] transition-colors border border-slate-200"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <benefit.icon size={24} className="text-blue-700" />
+                <div className="w-12 h-12 bg-[#e6f5fd] rounded-lg flex items-center justify-center mb-4">
+                  <benefit.icon size={24} className="text-[#189fea]" />
                 </div>
                 <h3 className="font-heading font-semibold text-slate-900 mb-2">
                   {benefit.title}

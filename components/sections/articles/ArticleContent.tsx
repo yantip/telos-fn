@@ -22,7 +22,7 @@ export function ArticleContent({ htmlContent }: ArticleContentProps) {
               prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mt-12 prose-h2:mb-6
               prose-h3:text-xl prose-h3:md:text-2xl prose-h3:mt-8 prose-h3:mb-4
               prose-p:text-slate-700 prose-p:leading-relaxed
-              prose-a:text-blue-700 prose-a:font-medium prose-a:no-underline hover:prose-a:underline
+              prose-a:text-[#189fea] prose-a:font-medium prose-a:no-underline hover:prose-a:text-[#1171a4] hover:prose-a:underline
               prose-strong:text-slate-900 prose-strong:font-semibold
               prose-ul:text-slate-700 prose-ol:text-slate-700
               prose-li:marker:text-slate-400

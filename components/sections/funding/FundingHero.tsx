@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 export function FundingHero() {
   return (
-    <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-br from-slate-100 via-white to-blue-50 relative overflow-hidden">
+    <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-br from-slate-100 via-white to-[#e6f5fd] relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 right-20 w-72 h-72 bg-blue-200/40 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-96 h-96 bg-indigo-100/50 rounded-full blur-3xl" />
+        <div className="absolute top-20 right-20 w-72 h-72 bg-[#b3e3fa]/40 rounded-full blur-3xl" />
+        <div className="absolute bottom-10 left-10 w-96 h-96 bg-[#b3e3fa]/50 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
@@ -34,7 +34,7 @@ export function FundingHero() {
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-slate-900 mb-6 leading-tight">
             R&D Grant{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-600">
+            <span style={{ color: '#189fea' }}>
               Programs
             </span>
           </h1>
@@ -50,7 +50,7 @@ export function FundingHero() {
               <strong className="text-slate-900">Not sure which program fits?</strong>
               {' '}Every company&apos;s situation is unique. We start with a strategic assessment 
               to identify the programs that align with your technology, stage, and goals.
-              {' '}<Link href="/contact" className="text-blue-700 font-medium hover:text-blue-900 underline">Schedule a consultation</Link> to discuss your options.
+              {' '}<Link href="/contact" className="text-[#189fea] font-medium hover:text-[#1171a4] underline">Schedule a consultation</Link> to discuss your options.
             </p>
           </div>
         </motion.div>

@@ -76,8 +76,8 @@ export function Expertise() {
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200 shadow-sm"
                 >
-                  <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <sector.icon size={20} className="text-blue-700" />
+                  <div className="w-10 h-10 bg-[#e6f5fd] rounded-lg flex items-center justify-center flex-shrink-0">
+                    <sector.icon size={20} className="text-[#189fea]" />
                   </div>
                   <span className="text-sm font-medium text-slate-800">{sector.name}</span>
                 </motion.div>
@@ -106,7 +106,7 @@ export function Expertise() {
                     transition={{ duration: 0.3, delay: index * 0.05 }}
                     className="flex items-center gap-3"
                   >
-                    <div className="w-2 h-2 bg-blue-600 rounded-full" />
+                    <div className="w-2 h-2 bg-[#189fea] rounded-full" />
                     <span className="text-slate-700">{program}</span>
                   </motion.li>
                 ))}

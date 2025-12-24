@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function AccessibilityPage() {
   return (
     <>
-      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-br from-slate-100 via-white to-blue-50">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-br from-slate-100 via-white to-[#e6f5fd]">
         <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
@@ -113,9 +113,9 @@ export default function AccessibilityPage() {
               accessibility barriers, please let us know:
             </p>
             <ul className="text-slate-700">
-              <li>Email: <a href="mailto:contact@telosfn.com" className="text-blue-700 hover:text-blue-900">contact@telosfn.com</a></li>
+              <li>Email: <a href="mailto:contact@telosfn.com" className="text-[#189fea] hover:text-[#1171a4]">contact@telosfn.com</a></li>
               <li>Phone: Contact our main office</li>
-              <li>Contact Form: Use our <Link href="/contact" className="text-blue-700 hover:text-blue-900">contact page</Link></li>
+              <li>Contact Form: Use our <Link href="/contact" className="text-[#189fea] hover:text-[#1171a4]">contact page</Link></li>
             </ul>
             <p className="text-slate-700">
               We try to respond to accessibility feedback within 5 business days.

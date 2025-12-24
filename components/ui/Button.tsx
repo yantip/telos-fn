@@ -15,7 +15,7 @@ const buttonVariants = cva(
           'border-2 border-slate-300 text-slate-800 hover:bg-slate-100 focus-visible:ring-slate-600',
         ghost:
           'text-slate-700 hover:bg-slate-100 hover:text-slate-900 focus-visible:ring-slate-600',
-        link: 'text-blue-700 underline-offset-4 hover:underline hover:text-blue-900 focus-visible:ring-blue-600',
+        link: 'text-[#189fea] underline-offset-4 hover:underline hover:text-[#1171a4] focus-visible:ring-[#189fea]',
       },
       size: {
         sm: 'h-9 px-3 text-sm',

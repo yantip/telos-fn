@@ -90,7 +90,7 @@ export function TrustIndicators() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="text-center p-6 md:p-8 bg-white rounded-2xl shadow-sm border border-slate-200"
             >
-              <div className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-blue-600 mb-2">
+              <div className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-[#189fea] mb-2">
                 <AnimatedCounter 
                   value={stat.value} 
                   suffix={stat.suffix} 
@@ -131,8 +131,8 @@ export function TrustIndicators() {
               className="relative p-6 md:p-8 bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow"
             >
               {/* Quote Icon */}
-              <div className="absolute top-6 right-6 w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                <Quote size={20} className="text-blue-600" />
+              <div className="absolute top-6 right-6 w-10 h-10 bg-[#e6f5fd] rounded-lg flex items-center justify-center">
+                <Quote size={20} className="text-[#189fea]" />
               </div>
 
               {/* Sector Badge */}
@@ -147,8 +147,8 @@ export function TrustIndicators() {
 
               {/* Author */}
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                  <span className="text-blue-700 font-semibold text-sm">
+                <div className="w-10 h-10 bg-[#e6f5fd] rounded-full flex items-center justify-center">
+                  <span className="text-[#189fea] font-semibold text-sm">
                     {testimonial.author
                       .split(' ')
                       .map((n) => n[0])

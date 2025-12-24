@@ -58,7 +58,7 @@ export function Approach() {
             >
               {/* Icon */}
               <div className="w-14 h-14 bg-slate-700 rounded-xl flex items-center justify-center mb-6">
-                <principle.icon size={28} className="text-blue-400" />
+                <principle.icon size={28} className="text-[#189fea]" />
               </div>
 
               {/* Content */}

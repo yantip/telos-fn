@@ -125,8 +125,8 @@ export function ResearchServices() {
                 {/* Content */}
                 <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center">
-                      <service.icon size={28} className="text-blue-700" />
+                    <div className="w-14 h-14 bg-[#e6f5fd] rounded-xl flex items-center justify-center">
+                      <service.icon size={28} className="text-[#189fea]" />
                     </div>
                     <h3 className="text-2xl md:text-3xl font-heading font-bold text-slate-900">
                       {service.title}
@@ -144,7 +144,7 @@ export function ResearchServices() {
                     <ul className="grid sm:grid-cols-2 gap-2">
                       {service.features.map((feature) => (
                         <li key={feature} className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0" />
+                          <div className="w-1.5 h-1.5 bg-[#189fea] rounded-full mt-2 flex-shrink-0" />
                           <span className="text-slate-600">{feature}</span>
                         </li>
                       ))}
@@ -161,7 +161,7 @@ export function ResearchServices() {
                     <ul className="space-y-3">
                       {service.deliverables.map((deliverable) => (
                         <li key={deliverable} className="flex items-start gap-3">
-                          <div className="w-6 h-6 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <div className="w-6 h-6 bg-[#189fea] rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
                             <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
@@ -204,10 +204,10 @@ export function ResearchServices() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-6 md:p-8 border border-slate-200 hover:border-blue-200 hover:shadow-lg transition-all"
+                className="bg-white rounded-2xl p-6 md:p-8 border border-slate-200 hover:border-[#b3e3fa] hover:shadow-lg transition-all"
               >
-                <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                  <service.icon size={24} className="text-blue-700" />
+                <div className="w-12 h-12 bg-[#e6f5fd] rounded-xl flex items-center justify-center mb-4">
+                  <service.icon size={24} className="text-[#189fea]" />
                 </div>
                 <h3 className="text-xl font-heading font-semibold text-slate-900 mb-2">
                   {service.title}

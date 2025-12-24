@@ -121,7 +121,7 @@ export function ContactForm() {
         </p>
         <button
           onClick={() => setFormState('idle')}
-          className="text-blue-700 font-medium hover:text-blue-900 underline"
+          className="text-[#189fea] font-medium hover:text-[#1171a4] underline"
         >
           Send another message
         </button>
@@ -162,7 +162,7 @@ export function ContactForm() {
             value={formData.name}
             onChange={handleChange}
             className={`w-full px-4 py-3 rounded-lg border ${
-              errors.name ? 'border-red-300 focus:ring-red-500' : 'border-slate-300 focus:ring-blue-500'
+              errors.name ? 'border-red-300 focus:ring-red-500' : 'border-slate-300 focus:ring-[#189fea]'
             } focus:outline-none focus:ring-2 focus:ring-offset-0 transition-colors bg-white text-slate-900`}
             placeholder="Your full name"
           />
@@ -183,7 +183,7 @@ export function ContactForm() {
             value={formData.email}
             onChange={handleChange}
             className={`w-full px-4 py-3 rounded-lg border ${
-              errors.email ? 'border-red-300 focus:ring-red-500' : 'border-slate-300 focus:ring-blue-500'
+              errors.email ? 'border-red-300 focus:ring-red-500' : 'border-slate-300 focus:ring-[#189fea]'
             } focus:outline-none focus:ring-2 focus:ring-offset-0 transition-colors bg-white text-slate-900`}
             placeholder="your@email.com"
           />
@@ -203,7 +203,7 @@ export function ContactForm() {
             name="company"
             value={formData.company}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-0 transition-colors bg-white text-slate-900"
+            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#189fea] focus:ring-offset-0 transition-colors bg-white text-slate-900"
             placeholder="Your company name"
           />
         </div>
@@ -218,7 +218,7 @@ export function ContactForm() {
             name="inquiryType"
             value={formData.inquiryType}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-0 transition-colors bg-white text-slate-900"
+            className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#189fea] focus:ring-offset-0 transition-colors bg-white text-slate-900"
           >
             {inquiryTypes.map((type) => (
               <option key={type.value} value={type.value}>
@@ -240,7 +240,7 @@ export function ContactForm() {
             onChange={handleChange}
             rows={5}
             className={`w-full px-4 py-3 rounded-lg border ${
-              errors.message ? 'border-red-300 focus:ring-red-500' : 'border-slate-300 focus:ring-blue-500'
+              errors.message ? 'border-red-300 focus:ring-red-500' : 'border-slate-300 focus:ring-[#189fea]'
             } focus:outline-none focus:ring-2 focus:ring-offset-0 transition-colors resize-none bg-white text-slate-900`}
             placeholder="Tell us about your project, questions, or how we can help..."
           />
@@ -257,11 +257,11 @@ export function ContactForm() {
               name="consent"
               checked={formData.consent}
               onChange={handleChange}
-              className="mt-1 w-4 h-4 rounded border-slate-300 text-blue-700 focus:ring-blue-500"
+              className="mt-1 w-4 h-4 rounded border-slate-300 text-[#189fea] focus:ring-[#189fea]"
             />
             <span className="text-sm text-slate-600">
               I agree to the{' '}
-              <Link href="/privacy-policy" className="text-blue-700 hover:text-blue-900 underline">
+              <Link href="/privacy-policy" className="text-[#189fea] hover:text-[#1171a4] underline">
                 Privacy Policy
               </Link>
               . Telos will use this information to respond to my inquiry. <span className="text-red-500">*</span>

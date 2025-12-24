@@ -86,7 +86,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Focus indicators for accessibility */
 *:focus-visible {
-  @apply outline-2 outline-offset-2 outline-blue-600;
+  outline: 2px solid #189fea;
+  outline-offset: 2px;
 }
 
 /* Skip to main content link */
@@ -169,7 +170,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .prose a {
-  @apply text-blue-700 hover:text-blue-900 underline;
+  color: #189fea;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #1171a4;
 }
 
 .prose blockquote {
@@ -198,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Better gradient text */
 .gradient-text {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-indigo-600;
+  color: #189fea;
 }
 
 /* Section backgrounds */

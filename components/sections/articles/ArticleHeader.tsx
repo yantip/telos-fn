@@ -12,11 +12,11 @@ interface ArticleHeaderProps {
 
 export function ArticleHeader({ article }: ArticleHeaderProps) {
   return (
-    <section className="pt-32 pb-12 md:pt-40 md:pb-16 bg-gradient-to-br from-slate-100 via-white to-blue-50 relative overflow-hidden">
+    <section className="pt-32 pb-12 md:pt-40 md:pb-16 bg-gradient-to-br from-slate-100 via-white to-[#e6f5fd] relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 right-20 w-72 h-72 bg-blue-200/40 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-96 h-96 bg-indigo-100/50 rounded-full blur-3xl" />
+        <div className="absolute top-20 right-20 w-72 h-72 bg-[#b3e3fa]/40 rounded-full blur-3xl" />
+        <div className="absolute bottom-10 left-10 w-96 h-96 bg-[#b3e3fa]/50 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
@@ -59,7 +59,7 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
               <Link
                 key={tag}
                 href={`/articles?tag=${encodeURIComponent(tag)}`}
-                className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full hover:bg-blue-200 transition-colors border border-blue-200"
+                className="px-3 py-1 bg-[#e6f5fd] text-[#1171a4] text-sm font-medium rounded-full hover:bg-[#b3e3fa] transition-colors border border-[#b3e3fa]"
               >
                 {tag}
               </Link>
@@ -79,17 +79,17 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
           {/* Meta */}
           <div className="flex flex-wrap items-center gap-6 text-slate-600">
             <div className="flex items-center gap-2">
-              <User size={18} className="text-blue-600" />
+              <User size={18} className="text-[#189fea]" />
               <span>{article.author}</span>
             </div>
             <div className="flex items-center gap-2">
-              <Calendar size={18} className="text-blue-600" />
+              <Calendar size={18} className="text-[#189fea]" />
               <time dateTime={article.date}>
                 {format(new Date(article.date), 'MMMM d, yyyy')}
               </time>
             </div>
             <div className="flex items-center gap-2">
-              <Clock size={18} className="text-blue-600" />
+              <Clock size={18} className="text-[#189fea]" />
               <span>{article.readTime}</span>
             </div>
           </div>

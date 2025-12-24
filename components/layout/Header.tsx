@@ -68,7 +68,7 @@ export function Header() {
                 href={link.href}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   pathname === link.href
-                    ? 'text-blue-700 bg-blue-50'
+                    ? 'text-[#189fea] bg-[#e6f5fd]'
                     : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100'
                 }`}
               >
@@ -111,7 +111,7 @@ export function Header() {
                     href={link.href}
                     className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
                       pathname === link.href
-                        ? 'text-blue-700 bg-blue-50'
+                        ? 'text-[#189fea] bg-[#e6f5fd]'
                         : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100'
                     }`}
                   >

@@ -41,7 +41,7 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
                       {article.tags.slice(0, 2).map((tag) => (
                         <span
                           key={tag}
-                          className="px-2 py-1 bg-slate-100 text-xs font-medium text-blue-700 rounded border border-slate-200"
+                          className="px-2 py-1 bg-slate-100 text-xs font-medium text-[#189fea] rounded border border-slate-200"
                         >
                           {tag}
                         </span>
@@ -49,7 +49,7 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-lg font-heading font-semibold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors line-clamp-2">
+                    <h3 className="text-lg font-heading font-semibold text-slate-900 mb-2 group-hover:text-[#189fea] transition-colors line-clamp-2">
                       {article.title}
                     </h3>
 
@@ -65,7 +65,7 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
                     </div>
 
                     {/* Read More */}
-                    <div className="flex items-center gap-2 text-blue-700 text-sm font-medium group-hover:text-blue-900 transition-colors">
+                    <div className="flex items-center gap-2 text-[#189fea] text-sm font-medium group-hover:text-[#1171a4] transition-colors">
                       Read more
                       <ArrowRight
                         size={14}

@@ -78,11 +78,11 @@ export function ValueProposition() {
             <motion.div
               key={value.title}
               variants={item}
-              className="group relative p-6 md:p-8 bg-slate-50 rounded-2xl hover:bg-blue-50 transition-colors duration-300 border border-slate-200 hover:border-blue-200"
+              className="group relative p-6 md:p-8 bg-slate-50 rounded-2xl hover:bg-[#e6f5fd] transition-colors duration-300 border border-slate-200 hover:border-[#b3e3fa]"
             >
               {/* Icon */}
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-200 transition-colors">
-                <value.icon size={28} className="text-blue-700" />
+              <div className="w-14 h-14 bg-[#e6f5fd] rounded-xl flex items-center justify-center mb-5 group-hover:bg-[#b3e3fa] transition-colors">
+                <value.icon size={28} className="text-[#189fea]" />
               </div>
 
               {/* Content */}
@@ -94,7 +94,7 @@ export function ValueProposition() {
               </p>
 
               {/* Decorative number */}
-              <div className="absolute top-4 right-4 text-5xl font-heading font-bold text-slate-200 group-hover:text-blue-200 transition-colors">
+              <div className="absolute top-4 right-4 text-5xl font-heading font-bold text-slate-200 group-hover:text-[#b3e3fa] transition-colors">
                 {String(index + 1).padStart(2, '0')}
               </div>
             </motion.div>
